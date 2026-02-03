@@ -1,5 +1,6 @@
 {
   "ignorePatterns": [
+    "packages/db/src/migrations",
     "**/*.md",
     "**/*.txt",
     "**/*.log",

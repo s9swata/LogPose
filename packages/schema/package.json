@@ -1,9 +1,20 @@
 {
-    "name": "@LogPose/schema",
-    "exports": {
-        "./float": {
-            "types": "./float.ts",
-            "default": "./float.ts"
-        }
+  "name": "@LogPose/schema",
+  "type": "module",
+  "exports": {
+    "./*": {
+      "default": "./src/*.ts"
+    },
+    "./float": {
+      "types": "./float.ts",
+      "default": "./float.ts"
     }
+  },
+  "scripts": {},
+  "dependencies": {
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
 }
