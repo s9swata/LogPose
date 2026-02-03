@@ -4,6 +4,10 @@
   "exports": {
     "./*": {
       "default": "./src/*.ts"
+    },
+    "./float": {
+      "types": "./float.ts",
+      "default": "./float.ts"
     }
   },
   "scripts": {},

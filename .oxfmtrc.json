@@ -1,3 +1,11 @@
 {
-  "ignorePatterns": ["packages/db/src/migrations"]
+  "ignorePatterns": [
+    "packages/db/src/migrations",
+    "**/*.md",
+    "**/*.txt",
+    "**/*.log",
+    "**/*.csv",
+    "**/*.json",
+    "**/ui/"
+  ]
 }
