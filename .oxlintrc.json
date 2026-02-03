@@ -35,5 +35,7 @@
     "builtin": true
   },
   "globals": {},
-  "ignorePatterns": []
+  "ignorePatterns": [
+    "**/ui/"
+  ]
 }
