@@ -1,0 +1,9 @@
+{
+    "name": "@LogPose/schema",
+    "exports": {
+        "./float": {
+            "types": "./float.ts",
+            "default": "./float.ts"
+        }
+    }
+}

@@ -1,3 +1,10 @@
 {
-  "ignorePatterns": []
+  "ignorePatterns": [
+    "**/*.md",
+    "**/*.txt",
+    "**/*.log",
+    "**/*.csv",
+    "**/*.json",
+    "**/ui/"
+  ]
 }
