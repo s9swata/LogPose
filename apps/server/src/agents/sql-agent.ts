@@ -2,7 +2,7 @@ import { createGroq } from "@ai-sdk/groq";
 import { db } from "@LogPose/db";
 import { generateText } from "ai";
 import { env } from "@LogPose/env/server";
-import { validateSQL } from "../utils/helper";
+import { validateSQL } from "@/utils/helper";
 
 const groq = createGroq({
   apiKey: env.GROQ_API_KEY,

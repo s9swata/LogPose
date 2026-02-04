@@ -15,6 +15,7 @@
     "@LogPose/schema": "workspace:*",
     "@ai-sdk/groq": "^3.0.21",
     "@duckdb/node-api": "^1.4.4-r.1",
+    "@hono/zod-validator": "^0.7.6",
     "ai": "^6.0.69",
     "dotenv": "catalog:",
     "drizzle-orm": "^0.45.1",
