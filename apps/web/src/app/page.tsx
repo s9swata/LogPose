@@ -1,5 +1,7 @@
 "use client";
+import { HomeNavbar } from "@/components/home/home-navbar";
 import InteractiveArgoMap from "@/components/home/interactive-argo-map";
+import { Sidebar } from "@/components/home/sidebar";
 
 export default function Home() {
   return (
@@ -8,6 +10,12 @@ export default function Home() {
       <div className="fixed inset-0 z-10">
         <InteractiveArgoMap />
       </div>
+
+      {/* Navigation Sidebar - high z-index to be above map */}
+      <Sidebar className="z-100" />
+
+      {/* Floating Dock Navbar - high z-index to be above map */}
+      <HomeNavbar />
     </div>
   );
 }
