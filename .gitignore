@@ -23,6 +23,7 @@ build
 *.swo
 *~
 .DS_Store
+.pvt
 
 # Logs
 logs
@@ -50,3 +51,4 @@ tmp
 temp
 .infisical.json
 .agent
+.claude
